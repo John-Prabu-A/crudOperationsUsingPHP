@@ -24,7 +24,7 @@
     
 
     <!-- Button trigger modal -->
-    <button type="Add Data" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addData">Button</button>
+    <button type="Add Data" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addData">Add User</button>
 
 
     <!-- For Adding data-->

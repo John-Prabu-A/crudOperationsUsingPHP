@@ -27,7 +27,7 @@
 <body>
 
     <div class="container">
-    <h1 class="text-center">Update Data</h1>
+    <h1 class="text-center">Update Data <?php echo"$gender" ?></h1>
 
 <div class="container">
 
@@ -40,8 +40,8 @@
     </div>
     <div class="mb-3">
         <label class="form-check-label" for="gender">Gender</label><br>
-        <input type="radio" name="gender" class="form-check-input" value='<?php echo"male"; ?>' > Male</input><br>
-        <input type="radio" name="gender" class="form-check-input" value='<?php echo"female"; ?>' > Female</input>
+        <input type="radio" name="gender" class="form-check-input" <?php if($gender==='male'){echo"checked";} ?> value='male'> Male</input><br>
+        <input type="radio" name="gender" class="form-check-input" <?php if($gender==='female'){echo"checked";} ?> value='female'> Female</input>
     </div>
     <div class="mb-3">
         <label for="salary" class="form-label">Salary</label>
