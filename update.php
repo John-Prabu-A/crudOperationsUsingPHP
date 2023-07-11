@@ -26,7 +26,7 @@
 <body>
 
     <div class="container">
-    <h1 class="text-center">Update Data <?php echo"$gender" ?></h1>
+    <h1 class="text-center">Update Data</h1>
 
 <div class="container">
 
